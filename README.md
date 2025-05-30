@@ -1,2 +1,2 @@
 # kubern8
-kubernate project
+kubernate learning

@@ -3,3 +3,16 @@ Hi,
 Starting with Docker today.
 Create a test docker app - Todo.
 multistaged build - to reduce image size.
+
+some docker commands
+
+- docker container kill
+- docker container logs
+- docker container ls
+- docker container rename
+- docker container restart
+- docker container rm 
+- docker container run 
+- docker container start
+- docker container stop
+- docker container update

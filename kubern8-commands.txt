@@ -1,4 +1,4 @@
-kubeccttl get nodes
-kubectl get nodes
-kubectl config get-contexts
-kubectl get nodes
+Cluster is the group(infra) of controlplane and worker nodes. -- > a.k.a Context during exam. 
+
+kubectl get nodes -- list out nodes in cluster
+kubectl config get-contexts -- list out clusters

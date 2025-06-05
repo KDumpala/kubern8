@@ -1,0 +1,4 @@
+kubeccttl get nodes
+kubectl get nodes
+kubectl config get-contexts
+kubectl get nodes

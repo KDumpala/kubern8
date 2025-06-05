@@ -8,4 +8,5 @@ English (with Kubernetes) : https://www.youtube.com/playlist?list=PLl4APkPHzsUUO
 
 
 Kubernetes CKA course :  https://www.youtube.com/playlist?list=PLl4APkPHzsUUOkOv3i62UidrLmSB8DcGC
+
 Git repo: https://github.com/piyushsachdeva/CKA-2024

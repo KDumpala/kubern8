@@ -13,3 +13,5 @@ kubectl describe pod podname  -- pod creation logs
 kubectl edit pod podname -- edit the config runtime
 
 kubectl run nginx --image=nginx --dry-run=client -o yaml > task.yaml -- dry run command and exports yaml output to task.yaml file 
+
+kubectl apply -f first_manifest.yml <-- apply the manifest

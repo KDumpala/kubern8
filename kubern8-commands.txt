@@ -15,3 +15,12 @@ kubectl edit pod podname -- edit the config runtime
 kubectl run nginx --image=nginx --dry-run=client -o yaml > task.yaml -- dry run command and exports yaml output to task.yaml file 
 
 kubectl apply -f first_manifest.yml <-- apply the manifest
+
+
+=====================
+
+k8s Components
+    1. Node
+    2. Pod
+    3. Service
+    4. Ingress

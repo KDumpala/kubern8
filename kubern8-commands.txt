@@ -16,7 +16,6 @@ kubectl run nginx --image=nginx --dry-run=client -o yaml > task.yaml -- dry run 
 
 kubectl apply -f first_manifest.yml <-- apply the manifest
 
-
 =====================
 
 k8s Components
@@ -24,3 +23,14 @@ k8s Components
     2. Pod
     3. Service
     4. Ingress
+
+Nodes - 
+    Master Node
+        kube-apiserver: The front door and central management HUB.
+        etcd: Consistent key-value store for all cluster data and state.
+        kube-scheduler: Assigns Pods to healthy Worker Nodes based on resource constraints.
+        kube-controller-manager: Runs controllers that handle node failures, replication, endpoints, etc.
+    worker Node
+        kubelet: Agent that ensures containers are running in a Pod on the node.
+        kube-proxy: Maintains network rules on nodes to allow network communication.
+        Container Runtime: containerd

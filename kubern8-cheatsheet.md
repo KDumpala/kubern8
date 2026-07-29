@@ -18,20 +18,20 @@
 
 Cluster is the group(infra) of controlplane and worker nodes. -- > a.k.a Context during exam. 
 
-'kubectl get nodes' -- list out nodes in cluster
-'kubectl config get-contexts' -- list out clusters
+`kubectl get nodes` -- list out nodes in cluster
+`kubectl config get-contexts` -- list out clusters
 
-'kubectl run nginx-pod --image=nginx:latest' -- impererative way, for creating pods with image
-'kubectl create -f task.yaml' -- Declarative way of creating pods 
+`kubectl run nginx-pod --image=nginx:latest` -- impererative way, for creating pods with image
+`kubectl create -f task.yaml` -- Declarative way of creating pods 
 
-'kubectl delete pod nginx-pod' -- delete pod
+`kubectl delete pod nginx-pod` -- delete pod
 
-'kubectl describe pod podname'  -- pod creation logs
+`kubectl describe pod podname`  -- pod creation logs
 
-'kubectl edit pod podname' -- edit the config runtime
+`kubectl edit pod podname` -- edit the config runtime
 
-'kubectl run nginx --image=nginx --dry-run=client -o yaml > task.yaml' -- dry run command and exports yaml output to task.yaml file 
+`kubectl run nginx --image=nginx --dry-run=client -o yaml > task.yaml` -- dry run command and exports yaml output to task.yaml file 
 
-'kubectl apply -f first_manifest.yml' <-- apply the manifest
+`kubectl apply -f first_manifest.yaml` <-- apply the manifest
 
 =====================

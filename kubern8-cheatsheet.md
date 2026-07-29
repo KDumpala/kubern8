@@ -5,18 +5,23 @@
     4. Ingress
 
 ## Nodes - 
-    Master Node
+   - Master Node
        - kube-apiserver: The front door and central management HUB.
        - etcd: Consistent key-value store for all cluster data and state.
        - kube-scheduler: Assigns Pods to healthy Worker Nodes based on resource constraints.
        - kube-controller-manager: Runs controllers that handle node failures, replication, endpoints, etc.
-    worker Node
+    
+   - worker Node
        - kubelet: Agent that ensures containers are running in a Pod on the node.
        - kube-proxy: Maintains network rules on nodes to allow network communication.
        - Container Runtime: containerd
 
 
 Cluster is the group(infra) of controlplane and worker nodes. -- > a.k.a Context during exam. 
+
+`kubectl` - command line tool for kubernetes cluster(any type).
+
+`kubectl version --client`
 
 `kubectl get nodes` -- list out nodes in cluster
 

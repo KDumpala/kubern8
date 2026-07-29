@@ -19,9 +19,11 @@
 Cluster is the group(infra) of controlplane and worker nodes. -- > a.k.a Context during exam. 
 
 `kubectl get nodes` -- list out nodes in cluster
+
 `kubectl config get-contexts` -- list out clusters
 
 `kubectl run nginx-pod --image=nginx:latest` -- impererative way, for creating pods with image
+
 `kubectl create -f task.yaml` -- Declarative way of creating pods 
 
 `kubectl delete pod nginx-pod` -- delete pod

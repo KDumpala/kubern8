@@ -1,0 +1,1 @@
+`winget install Kubernetes.kind` - install kind on win sys

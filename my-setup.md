@@ -7,13 +7,20 @@
 `kubectl get nodes` - to check the nodes created
 
 `kubectl config --set-context clustername` 
+
 `kubectl config use-context my-cluster-name`
+
 `kubectl config get-contexts`
+
 `kubectl config current-contexts`           
+
 `kubectl config use-context my-cluster-name`
 
 `kubectl run nginx-pod --image=nginx:latest`
+
 `kubectl get pods`
+
 `kubectl describe pod nginx-pod`
+
 `kubectl edit pod nginx-pod` - 
 

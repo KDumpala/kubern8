@@ -1,5 +1,7 @@
 # [My Kubernetes](kubern8-cheatsheet.md)
 
+# [My setup steps](my-setup.md)
+
 
 # kubern8
 kubernate learning

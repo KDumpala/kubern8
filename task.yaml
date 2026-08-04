@@ -1,3 +1,5 @@
+# This is a sample Kubernetes configuration file for creating a cluster and a pod.
+
 apiVersion: v1
 kind: Pod
 metadata:
@@ -11,3 +13,21 @@ spec:
     image: nginx
     ports:
     - containerPort: 80
+
+
+# - role: worker
+# - role: worker
+
+# # apiVersion: v1
+# # kind: Pod
+# # metadata:
+# #   name: nginx-pod
+# #   labels:
+# #     env: demo
+# #     type: frontend
+# # spec:
+# #   containers:
+# #   - name: nginx-container
+# #     image: nginx
+# #     ports:
+# #     - containerPort: 80

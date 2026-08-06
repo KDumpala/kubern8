@@ -41,4 +41,6 @@ Cluster is the group(infra) of controlplane and worker nodes. -- > a.k.a Context
 
 `kubectl apply -f first_manifest.yaml` <-- apply the manifest
 
+ 
+
 =====================

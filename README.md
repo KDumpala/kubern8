@@ -2,6 +2,9 @@
 
 # [My setup steps](my-setup.md)
 
+`docker stop cka-cluster-control-plane cka-cluster-worker cka-cluster-worker2 kind-control-plane`
+
+`docker start cka-cluster-control-plane cka-cluster-worker cka-cluster-worker2 kind-control-plane`
 
 # kubern8
 kubernate learning

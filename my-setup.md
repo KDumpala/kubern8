@@ -27,3 +27,7 @@
 `kubectl get pods nginx-pod --show-labels` : shows labels atatched to the pod
 
 `kubectl get pods -o wide` - gives you extra details about the pod running 
+
+`docker stop cka-cluster-control-plane cka-cluster-worker cka-cluster-worker2 kind-control-plane`
+
+`docker start cka-cluster-control-plane cka-cluster-worker cka-cluster-worker2 kind-control-plane`

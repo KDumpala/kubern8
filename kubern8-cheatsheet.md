@@ -19,6 +19,10 @@
 
 Cluster is the group(infra) of controlplane and worker nodes. -- > a.k.a Context during exam. 
 
+`docker stop cka-cluster-control-plane cka-cluster-worker cka-cluster-worker2 kind-control-plane`
+
+`docker start cka-cluster-control-plane cka-cluster-worker cka-cluster-worker2 kind-control-plane`
+
 `kubectl` - command line tool for kubernetes cluster(any type).
 
 `kubectl version --client`

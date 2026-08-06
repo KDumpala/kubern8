@@ -39,8 +39,28 @@ Cluster is the group(infra) of controlplane and worker nodes. -- > a.k.a Context
 
 `kubectl run nginx --image=nginx --dry-run=client -o yaml > task.yaml` -- dry run command and exports yaml output to task.yaml file 
 
-`kubectl apply -f first_manifest.yaml` <-- apply the manifest
+`kubectl apply -f first_manifest.yaml` <-- apply the manifest/yaml file
 
+`kubectl get all` -- returns all the objects running in the cluster
  
 
 =====================
+Replication controller - mostly for high availability or damage control
+
+`kubectl get rc` -- to get the replication controller list
+
+`kubectl scale --replicas=7 rs/nginx-rs` -- scale the pods imperative way
+
+`kubectl edit rs/nginx-rs` -- replicaSet opens editor to make the changes in live, no apply command needed.
+
+`kubectl create deploy deploy/nginx-new --image=nginx --dry-run=client -o yaml > .\imperative-commandtest.yaml`  -- for deployment.
+
+`kubectl set image deployment/nginx nginx=nginx:1.23.4` -- update image during deployments
+
+`kubectl rollout history deployment/nginx`  -- Check your rollout history to confirm the annotation was recorded
+
+
+`kubectl annotate deployment/nginx kubernetes.io/change-cause="Pick up patch version" --overwrite`
+`kubectl annotate deployment/nginx kubernetes.io/change-cause="Pick up patch version"` --  to assing a rollout change cause
+
+`kubectl rollout undo deployment/nginx --to-revision=1`  -- to change th rollout change 
